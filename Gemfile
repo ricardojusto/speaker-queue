@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'dotenv-rails'
-gem 'sqlite3'
+gem 'pg'
 gem 'rails', '4.2.3'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -29,7 +29,5 @@ end
 
 group :development, :test do
   gem 'codeclimate-test-reporter'
-  gem 'rake'
-  gem 'byebug'
   gem 'spring'
 end
